@@ -7,8 +7,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: 'src/main.jsx',
-        app: 'src/App.jsx',
         home: 'src/pages/Home.jsx',
         product: 'src/product/product.jsx',
         login: 'src/component/login/login.jsx',
