@@ -1,0 +1,38 @@
+.section{
+    display: flex;
+    margin: 3.5rem 0 3rem;
+}
+
+.firstSection, .secondSection{
+    width: 100%;
+}
+
+.p{
+    width: 25%;
+    line-height: 1.5rem;
+}
+
+.firstSection img{
+    width: 70%;
+}
+
+.img{
+    width: 100%;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #000;
+    background-color: #D9D9D9;
+    width: 15%;
+    padding: 0.6rem 0.5rem;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.shop a:hover{
+    color: #fff;
+    background-color: #000;
+    transition: ease-in-out 1s;
+}

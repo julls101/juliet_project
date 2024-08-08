@@ -1,0 +1,27 @@
+.productCard{
+    border: 1px solid #cecece;
+    width: 20%;
+    display: grid;
+    place-content: center;
+    padding: 1rem 0;
+    margin: 0.5rem;
+}
+
+.dfl{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.span{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 0.2rem;
+}
+
+.img{
+    width: 12rem;
+    height: 12rem;
+}
+

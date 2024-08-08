@@ -1,0 +1,65 @@
+.section{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.shoeDisplay, .text{
+    flex: 1;
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+.price, .color, .size{
+    display: block;
+    margin: 0.8rem 0;
+}
+
+.price{
+    color: #ff0000;
+}
+
+.h3{
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.sizes{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+.number{
+    border: 1px solid #ccc;
+    padding: 0.3rem;
+}
+
+.img{
+    width: 2rem;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.btn{
+    padding: 0.5rem 4rem;
+    color: #fff;
+    background-color: #008000;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:active{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: ease-in-out 1s;
+}

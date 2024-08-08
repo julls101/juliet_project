@@ -1,0 +1,102 @@
+
+.section{
+    margin-top: 2rem;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.dfl{
+    display: flex;
+    padding-left: 1rem;
+}
+
+.firstSection{
+    width: 18%;
+    padding-top: .6rem;
+    border-right: 3px solid #000;
+    height: 100vh;
+}
+
+.big{
+    font-weight: 600;
+}
+
+.p{
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.small{
+    width: 100%;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.links{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:active{
+    color: #000;
+    background-color: #00ff00;
+    border: 1px solid #ccc;
+    transition: ease-in-out 1s;
+}
+
+.secondSection{
+    width: 82%;
+    padding-right: 1rem;
+}
+
+.h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.addItem a{
+    width: 100%;
+    height: 3rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.addItem a:hover{
+    color: #000;
+    background-color: #00ff00;
+    border: 1px solid #ccc;
+    transition: ease-in-out 1s;
+}
+
+table{
+    background: #000;
+    color: white;
+    height: 3rem;
+    width: 100%;
+}
+
+th{
+    width: 15%;
+    border: 1px solid;
+}

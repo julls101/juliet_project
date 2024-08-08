@@ -1,0 +1,48 @@
+.footer{
+    margin: 6rem 0 2rem;
+    display: flex;
+}
+
+.right, .left{
+    flex: 1;
+}
+
+.h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.address{
+    display: block;
+    margin: 0.3rem 0;
+}
+
+address a{
+    text-decoration: none;
+    color: #000;
+    width: fit-content;
+    border-bottom: 1px solid #000;
+}
+
+address a:hover{
+    color: #585757;
+    border-bottom: 1px solid #585757;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.social{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social:hover{
+    color: #585757;
+}
+
